@@ -1,0 +1,7 @@
+2020-02-07 21:27:38 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO RECORD (10001[*], 'AAA', 'BBB')"; expected "identifier"; SQL statement:
+insert into record (10001, 'AAA', 'BBB') [42001-200]
+2020-02-07 21:37:30 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENT" not found; SQL statement:
+insert into student
+values(10001,'Ranga', 'E1234567') [42102-200]
