@@ -19,8 +19,7 @@ public class RecordController {
 	private RecordService service;
 	
 	@GetMapping("/list")
-	public List<Record> getList(@RequestParam(value = "name", defaultValue = "2020-02") String month) {
-		System.out.println("XXXX");
+	public List<Record> getList(@RequestParam(value = "month", defaultValue = "2020-02") String month) {
 		return service.findAll();
 	}
 }
