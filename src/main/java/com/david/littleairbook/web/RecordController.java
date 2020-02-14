@@ -12,7 +12,7 @@ import com.david.littleairbook.jpa.Record;
 import com.david.littleairbook.service.RecordService;
 
 @RestController
-@RequestMapping("/record")
+@RequestMapping("/api/record")
 public class RecordController {
 
 	@Autowired
