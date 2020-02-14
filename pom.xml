@@ -17,8 +17,6 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<swagger.version>2.9.2</swagger.version>
-		<swagger-annotations.version>1.5.21</swagger-annotations.version>
-		<swagger-models.version>1.5.21</swagger-models.version>
 	</properties>
 
 	<dependencies>
@@ -77,14 +75,9 @@
 			<version>${swagger.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-annotations</artifactId>
-			<version>${swagger-annotations.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-models</artifactId>
-			<version>${swagger-models.version}</version>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
 		</dependency>
 	</dependencies>
 
