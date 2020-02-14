@@ -15,10 +15,10 @@ public class SwaggerConfig {
 
 	@Bean
     public Docket api() { 
-        return new Docket(DocumentationType.SWAGGER_2)  
-          .select()                                  
+        return new Docket(DocumentationType.SWAGGER_2)
+          .select()
           .apis(RequestHandlerSelectors.basePackage("com.david.littleairbook.web"))
-          .paths(PathSelectors.any())                          
-          .build();                                           
+          .paths(PathSelectors.any())
+          .build();
     }
 }
